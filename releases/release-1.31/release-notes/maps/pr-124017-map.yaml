@@ -1,0 +1,4 @@
+pr: 124017
+releasenote:
+  text: 'kube-controller-manager removes deprecated command flags: --volume-host-cidr-denylist
+    and --volume-host-allow-local-loopback'

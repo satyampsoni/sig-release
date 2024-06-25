@@ -1,0 +1,5 @@
+pr: 122812
+releasenote:
+  text: The iptables mode of kube-proxy now tracks packets that are wrongfully marked
+    invalid by conntrack and subsequently dropped by introducing `kubeproxy_iptables_ct_state_invalid_dropped_packets_total`
+    metric

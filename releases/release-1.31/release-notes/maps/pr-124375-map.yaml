@@ -1,0 +1,3 @@
+pr: 124375
+releasenote:
+  text: 'kubeadm: the global --rootfs flag is now considered non-experimental.'

@@ -1,0 +1,6 @@
+pr: 124688
+releasenote:
+  text: 'kubeadm: during "upgrade" , if the "etcd.yaml" static pod does not need upgrade,
+    still consider rotating the etcd certificates and restarting the etcd static pod
+    if the "kube-apiserver.yaml" manifest is to be upgraded and if certificate renewal
+    is not disabled.'

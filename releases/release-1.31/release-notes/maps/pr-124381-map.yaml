@@ -1,0 +1,4 @@
+pr: 124381
+releasenote:
+  text: CEL expressions and `additionalProperties` are now allowed to be used under
+    nested quantifiers in CRD schemas

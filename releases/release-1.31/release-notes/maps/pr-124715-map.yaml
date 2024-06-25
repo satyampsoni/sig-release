@@ -1,0 +1,5 @@
+pr: 124715
+releasenote:
+  text: 'kubeadm: the deprecated `UpgradeAddonsBeforeControlPlane` featuregate has
+    been removed, upgrade of the CoreDNS and kube-proxy addons will not be triggered
+    until all the control plane instances have been upgraded.'

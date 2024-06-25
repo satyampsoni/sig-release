@@ -1,0 +1,4 @@
+pr: 124220
+releasenote:
+  text: Kubelet will not restart the container when fields other than image in the
+    pod spec change.

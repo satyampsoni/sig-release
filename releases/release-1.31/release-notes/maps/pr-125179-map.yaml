@@ -1,0 +1,8 @@
+pr: 125179
+releasenote:
+  text: 'kubeadm: only enable the klog flags that are still supported for kubeadm,
+    rather than hiding the unwanted flags. This means that the previously unrecommended
+    hidden flags about klog (including `--alsologtostderr`, `--log-backtrace-at`,
+    `--log-dir`, `--logtostderr`, `--log-file`, `--log-file-max-size`, `--one-output`,
+    `--skip-log-headers`, `--stderrthreshold` and `--vmodule`) are no longer allowed
+    to be used.'

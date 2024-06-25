@@ -1,0 +1,3 @@
+pr: 124328
+releasenote:
+  text: The name of CEL optional type has been changed from `optional` to `optional_type`.

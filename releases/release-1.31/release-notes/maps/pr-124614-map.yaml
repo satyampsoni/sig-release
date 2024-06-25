@@ -1,0 +1,4 @@
+pr: 124614
+releasenote:
+  text: client-go/reflector:Now warns when the bookmark event for initial events have
+    not been received

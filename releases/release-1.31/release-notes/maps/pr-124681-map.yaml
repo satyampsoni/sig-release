@@ -1,0 +1,4 @@
+pr: 124681
+releasenote:
+  text: Custom resource field selectors are now in beta and enabled by default. Check
+    out https://github.com/kubernetes/enhancements/issues/4358 for more details.

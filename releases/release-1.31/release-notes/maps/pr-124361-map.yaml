@@ -1,0 +1,6 @@
+pr: 124361
+releasenote:
+  text: 'kubeadm: don''t mount /etc/pki in kube-apisever and kube-controller-manager
+    pods as an additional Linux system CA location. Mount /etc/pki/ca-trust and /etc/pki/tls/certs
+    instead. /etc/ca-certificate, /usr/share/ca-certificates, /usr/local/share/ca-certificates
+    and /etc/ssl/certs continue to be mounted.'
