@@ -4,4 +4,4 @@ releasenote:
     Added support for building Windows kube-proxy container image.
     A container image for kube-proxy on Windows could be built using the command
     `make release-images KUBE_BUILD_WINDOWS=y`.
-     The Windows kube-proxy image can be used with Windows Host Process Containers.
+     The Windows kube-proxy image could be used with Windows Host Process Containers.
