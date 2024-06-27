@@ -1,8 +1,8 @@
 pr: 123105
 releasenote:
   text: |-
-    The kube-proxy nodeportAddresses / --nodeport-addresses option now
-    accepts the value "primary", meaning to only listen for NodePort connections
+    Added support to the kube-proxy nodePortAddresses / --nodeport-addresses option to
+    accept the value "primary", meaning to only listen for NodePort connections
     on the node's primary IPv4 and/or IPv6 address (according to the Node object).
     This is strongly recommended, if you were not previously using
     --nodeport-addresses, to avoid surprising behavior.
