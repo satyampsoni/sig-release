@@ -1,6 +1,6 @@
 pr: 119589
 releasenote:
   text: |-
-    kubectl support both:
+    Added kubectl support for:
     - "kubectl create secret docker-registry <NAME> --from-file=<path/to/.docker/config.json>"
     - "kubectl create secret docker-registry <NAME> --from-file=.dockerconfigjson=<path/to/.docker/config.json>"
