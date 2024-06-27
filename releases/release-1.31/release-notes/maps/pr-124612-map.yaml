@@ -1,4 +1,4 @@
 pr: 124612
 releasenote:
-  text: Checking etcd version to warn about deprecated etcd versions if `ConsistentListFromCache`
+  text: Added check for etcd version to warn about deprecated etcd versions if `ConsistentListFromCache`
     is enabled.
