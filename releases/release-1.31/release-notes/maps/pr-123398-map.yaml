@@ -1,5 +1,5 @@
 pr: 123398
 releasenote:
-  text: the kubelet is no longer able to recover from device manager state file older
+  text: Kubelet is no longer able to recover from device manager state file older
     than 1.20. If the proper recommended upgrade flow is followed, there should be
     no issue.
